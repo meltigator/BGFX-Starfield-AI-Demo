@@ -167,3 +167,7 @@ Compared to the Ogre3D implementation, BGFX offers:
 
 The project showcases how modern rendering techniques combined with AI algorithms can create immersive, dynamic environments that respond organically to their surroundings.
 
+Little video test:
+https://youtu.be/gAZWwc3a2-I
+
+
