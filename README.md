@@ -69,13 +69,31 @@ The intelligent sphere features a sophisticated decision-making process:
 
 ### Sphere Rendering Pipeline:
 
-    Base Sphere:
+    1.Base Sphere:
 
-        * 16 slices × 16 stacks geometry
+        - 16 slices × 16 stacks geometry
 
-        * Dynamic lighting based on surface normal
+        - Dynamic lighting based on surface normal
 
-        * Blue energy gradient
+        - Blue energy gradient
 
-    Pulsation Effect:
+    2.Pulsation Effect:
+    
+        scale = base_size * (0.7 + 0.5 * sin(time * pulsation_speed));
+    
+    3.Energy Core:
+
+         - Dual-color state system (yellow ↔ white)
+
+         - Radial stripe pattern
+
+         - Size synchronized with pulsation
+
+    4.Aura Effect:
    
+         - 150% size transparent sphere
+
+         - Only active during high-intensity states
+
+         - Alpha-blended rendering
+    
