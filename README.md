@@ -39,4 +39,43 @@ Building upon my previous work with Ogre3D (Unix vs Ogre 3D), this new demo show
 
     * Multithreaded Compilation: Utilizes all CPU cores
 
+
+## AI Behavior System
+
+The intelligent sphere features a sophisticated decision-making process:
+
+### Action Selection (every 1-4 seconds):
+
+    actions = ["random", "forward", "backward", "left", "right", "up", "down"]
+    current_action = weighted_choice(actions, weights=[0.2, 0.15, 0.15, 0.1, 0.1, 0.1, 0.1])
+
+### Obstacle Avoidance Algorithm:
+
+    for (const auto& cube : cubes) {
+    float distance = calculate_distance(sphere, cube);
+    if (distance < avoidance_radius) {
+        avoidance_vector -= (cube.position - sphere.position).normalized() 
+                            * (1.0 - distance/avoidance_radius);
+    }
+    
+### Movement Physics:
+
+    velocity += direction * movement_speed * delta_time;
+    velocity = clamp(velocity, max_speed);
+    position += velocity * delta_time;
+    velocity *= 0.92f; // Friction factor
+
+## Visual Effects Breakdown
+
+### Sphere Rendering Pipeline:
+
+    Base Sphere:
+
+        * 16 slices × 16 stacks geometry
+
+        * Dynamic lighting based on surface normal
+
+        * Blue energy gradient
+
+    Pulsation Effect:
    
