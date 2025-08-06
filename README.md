@@ -137,7 +137,7 @@ System Config
 
     - AMD Ryzen 5 3600 (AVX2)   :   (Avg FPS)187	   (Cube Count)150	      (Sphere FPS Impact)5%
 
-    - Debug Mode                :   (Avg FPS)67	      (Cube Count)150	      (Sphere FPS Impact)15%
+    - Debug Mode                :   (Avg FPS)67	    (Cube Count)150	        (Sphere FPS Impact)15%
     
 
 ## Conclusion & Future Work
