@@ -133,11 +133,11 @@ cd bgfx-starfield-ai-demo
 
 System Config	        
 
-    - ### Intel i5-8300H (SSE4)   :   (Avg FPS)142	   (Cube Count)150	      (Sphere FPS Impact)8%
+    - Intel i5-8300H (SSE4)     :   (Avg FPS)142	   (Cube Count)150	      (Sphere FPS Impact)8%
 
     - AMD Ryzen 5 3600 (AVX2)   :   (Avg FPS)187	   (Cube Count)150	      (Sphere FPS Impact)5%
 
-    - Debug Mode   :   (Avg FPS)67	   (Cube Count)150	      (Sphere FPS Impact)15%
+    - Debug Mode                :   (Avg FPS)67	      (Cube Count)150	      (Sphere FPS Impact)15%
     
 
 ## Conclusion & Future Work
