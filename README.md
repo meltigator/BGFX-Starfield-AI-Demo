@@ -21,22 +21,22 @@ Building upon my previous work with Ogre3D (Unix vs Ogre 3D), this new demo show
 
 2. Enhanced Visual Effects
 
-    Dynamic Pulsation System: Size oscillation with configurable frequency
+    * Dynamic Pulsation System: Size oscillation with configurable frequency
 
-    Energy Aura: Glowing halo effect during high-intensity states
+    * Energy Aura: Glowing halo effect during high-intensity states
 
-    Core Energy System: Multi-layered internal energy source with color transitions
+    * Core Energy System: Multi-layered internal energy source with color transitions
 
-    Motion Trails: Velocity-based particle trails
+    * Motion Trails: Velocity-based particle trails
 
 3. Performance Optimization
 
-    BGFX Rendering: Cross-platform, graphics API-agnostic rendering
+    * BGFX Rendering: Cross-platform, graphics API-agnostic rendering
 
-    Efficient Geometry: Quad strips for sphere rendering
+    * Efficient Geometry: Quad strips for sphere rendering
 
-    Dynamic LOD: Adjustable detail levels for effects
+    * Dynamic LOD: Adjustable detail levels for effects
 
-    Multithreaded Compilation: Utilizes all CPU cores
+    * Multithreaded Compilation: Utilizes all CPU cores
 
    
