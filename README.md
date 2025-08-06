@@ -11,13 +11,13 @@ Building upon my previous work with Ogre3D (Unix vs Ogre 3D), this new demo show
 
 1. Intelligent Sphere Agent
 
-    AI Navigation System: Autonomous sphere that navigates through 150 animated cubes
+    * AI Navigation System: Autonomous sphere that navigates through 150 animated cubes
 
-    Behavior State Machine: 7 distinct movement patterns (forward, backward, left, right, up, down, random)
+    * Behavior State Machine: 7 distinct movement patterns (forward, backward, left, right, up, down, random)
 
-    Collision Avoidance: Real-time obstacle detection and evasion algorithms
+    * Collision Avoidance: Real-time obstacle detection and evasion algorithms
 
-    Organic Movement Patterns: Smooth acceleration/deceleration with momentum physics
+    * Organic Movement Patterns: Smooth acceleration/deceleration with momentum physics
 
 2. Enhanced Visual Effects
 
